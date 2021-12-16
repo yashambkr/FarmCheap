@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".suggestionMenu">
+
+    <LinearLayout
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:padding="25dp"
+            android:text="Select specific option for required suggestions"
+            android:textColor="@color/white"
+            android:textSize="15sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pestSuggestions"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text="Suggestion for pest control"
+            android:textColor="@color/white" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <Button
+            android:id="@+id/diseaseSuggestions"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text="Suggestion for disease control"
+            android:textColor="@color/white" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <Button
+            android:id="@+id/nutrientSuggestions"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text="Suggestion for nutrient deficiency"
+            android:textColor="@color/white" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

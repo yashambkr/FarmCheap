@@ -1,0 +1,4 @@
+0 Your Farm Is Diseased
+1 your farm lacks Nutrient
+2 Your farm is filled with pest
+3 Your farm is in Good Condition

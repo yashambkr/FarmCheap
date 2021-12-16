@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".nutrientSuggestion">
+
+    <RelativeLayout
+        android:id="@+id/nutrientLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="#3CC1EBF1"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:circularflow_radiusInDP="10dp">
+
+            <TextView
+                android:id="@+id/p1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Given below are some measures to improve efficiency of nutrients in your land.\n\nUsing Conservation Drainage Practices: \n\tSubsurface tile drainage is an important practice to manage water movement on and through many soils, typically in the Midwest.  Drainage water can carry soluble forms of nitrogen and phosphorus, so strategies are needed to reduce nutrient loads while maintaining adequate drainage for crop production
+\n\nPlanting Field Buffers: \n\tFarmers can plant trees, shrubs and grasses along the edges of fields; this is especially important for a field that borders water bodies. Planted buffers can help prevent nutrient loss from fields by absorbing or filtering out nutrients before they reach a water body\n
+\nImplementing Conservation Tillage: \n\tFarmers can reduce how often and how intensely the fields are tilled. Doing so can help to improve soil health, and reduce erosion, runoff and soil compaction, and therefore the chance of nutrients reaching waterways through runoff\n\n
+"
+                android:textColor="@color/white"
+                android:textSize="15sp"></TextView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

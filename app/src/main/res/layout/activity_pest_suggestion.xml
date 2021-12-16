@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".nutrientSuggestion">
+
+    <RelativeLayout
+        android:id="@+id/pestLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="#3CC1EBF1"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:circularflow_radiusInDP="10dp">
+
+            <TextView
+                android:id="@+id/p1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="
+
+Preventive measures:\n
+1.Planting resistant varieties
+2.Adaptation of planting and harvesting time
+3.Crop rotation
+4.Various hygiene measures (healthy and quality planting material, infestation of equipment)\n\nDefense measures:
+\n\tBiological; various beneficial viruses, fungi, bacteria, and insects as predators (ladybug)
+\n\tCultural; tracking of weather, monitoring of fields and crops
+\n\tPhysical; collecting insects and their destruction, disinfection of the soil, seed, and seedlings
+\n\tChemical, use of insecticides
+\n\nThe final measure of a farmer’s crop protection practice depends on the type of crop production. Conventional farmers use various pesticides as a most common protection measure."
+                android:textColor="@color/white"
+                android:textSize="15sp"></TextView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FarmCheapImageRecognition</string>
+    <string name="select">select</string>
+    <string name="add_image">add_image</string>
+    <string name="todo">TODO</string>
+    <string name="predict_image">predict_image</string>
+    <string name="fmc">Farm Cheap</string>
+</resources>
